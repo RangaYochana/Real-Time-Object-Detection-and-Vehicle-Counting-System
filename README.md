@@ -6,6 +6,8 @@ This project was built to automate vehicle counting at college premises using re
 
 Due to limited access to live CCTV camera feeds, a video was manually recorded at the college gate, capturing the movement of vehicles—primarily buses—exiting the campus. The system uses YOLO (You Only Look Once) for detecting buses in each frame and assigns a unique ID to each detected vehicle using object tracking. As a bus crosses the defined exit boundary in the frame, the system updates the total vehicle count.
 
+![Vehicle Detection Output](result.png)
+
 ### 🔍 Key Features
 
 - Detects buses in video footage using YOLO
